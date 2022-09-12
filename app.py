@@ -81,5 +81,4 @@ def stats():
     return render_template('stats.html', urls=urls)
 
 
-if __name__ == '__main__':
-	app.run(debug=True)
+app.run()
