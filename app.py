@@ -4,7 +4,7 @@ from hashids import Hashids
 from flask import Flask, render_template, request, flash, redirect, url_for
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'hTSuYyUSYVU-dUUDd8HvD'
+app.config['SECRET_KEY'] = '...'
 
 hashids = Hashids(min_length=4, salt=app.config['SECRET_KEY'])
 
